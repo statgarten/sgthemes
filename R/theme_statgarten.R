@@ -4,6 +4,9 @@
 #' @keywords theme_statgarten
 #' @export
 #' @examples
+#' library(dplyr)
+#' library(ggplot2)
+#' library(datatoys)
 #' datatoys::birthRate %>%
 #'   group_by(시점) %>%
 #'   summarise(합계출산율 = mean(합계출산율, na.rm = TRUE)) %>%

@@ -3,6 +3,9 @@ Title: MAKING GGPLOT GRAPHICS IN STATGARTEN STYLE
 Version: 0.0.0.9000
 Authors@R: person("Youngjun", "Na", email = "ruminoreticulum@gmail.com", role = c("aut", "cre"))
 Description: Helps create ggplot2 charts in the style used by Statgarten.
+Depends: R (>= 3.5.0)
+Imports: ggplot2
+Suggestions: dplyr, datatoys
 License: GLP-2
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
